@@ -21,6 +21,17 @@ import System.IO
 import qualified XMonad.StackSet as W
 import qualified Data.Map        as M
 
+-- Aaron's setting constant colors
+selected   = "'#268bd2'"
+background = "'#002b36'"
+foreground = "'#839496'"
+
+-- my dmenu title bar colors
+myDmenuTitleBar = 
+	"exec `dmenu_path | dmenu \
+		\ -nb " ++ background ++ "\
+	\`"
+
 -- The preferred terminal program, which is used in a binding below and by
 -- certain contrib modules.
 --
