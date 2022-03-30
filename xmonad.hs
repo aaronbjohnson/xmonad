@@ -27,10 +27,14 @@ background = "'#002b36'"
 foreground = "'#839496'"
 
 -- my dmenu title bar colors
-myDmenuTitleBar = 
-	"exec `dmenu_path | dmenu \
-		\ -nb " ++ background ++ "\
-	\`"
+myDmenuTitleBar =
+    "exec `dmenu_path | dmenu\
+        \ -p 'Run:'\
+        \ -i\
+        \ -nb " ++ background ++ "\
+        \ -nf " ++ foreground ++ "\
+        \ -sb " ++ selected   ++ "\
+    \`"
 
 -- The preferred terminal program, which is used in a binding below and by
 -- certain contrib modules.
