@@ -22,7 +22,7 @@ import qualified XMonad.StackSet as W
 import qualified Data.Map        as M
 
 -- Aaron's setting constant colors
-selected   = "'#268bd2'"
+selected   = "'#2aa198'"
 background = "'#002b36'"
 foreground = "'#839496'"
 
